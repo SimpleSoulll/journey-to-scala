@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="test"
 		confs="default, compile, runtime, test, provided, optional"
-		date="20190607134112"/>
+		date="20190607134602"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="1.1.2" status="release" pubdate="20180726093019" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
@@ -15,7 +15,7 @@
 				<metadata-artifact status="no" details="" size="3218" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/sbt/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbt/1.1.2/sbt-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="sbt" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4671" time="1112" location="/home/guojing/.ivy2/cache/org.scala-sbt/sbt/srcs/sbt-1.1.2-sources.jar">
+					<artifact name="sbt" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4671" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/sbt/srcs/sbt-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbt/1.1.2/sbt-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -27,7 +27,7 @@
 				<metadata-artifact status="no" details="" size="5568" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/main_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main_2.12/1.1.2/main_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="main_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="229386" time="2959" location="/home/guojing/.ivy2/cache/org.scala-sbt/main_2.12/srcs/main_2.12-1.1.2-sources.jar">
+					<artifact name="main_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="229386" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/main_2.12/srcs/main_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main_2.12/1.1.2/main_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -75,7 +75,7 @@
 				<metadata-artifact status="no" details="" size="5256" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/actions_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/actions_2.12/1.1.2/actions_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="actions_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25338" time="3030" location="/home/guojing/.ivy2/cache/org.scala-sbt/actions_2.12/srcs/actions_2.12-1.1.2-sources.jar">
+					<artifact name="actions_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25338" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/actions_2.12/srcs/actions_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/actions_2.12/1.1.2/actions_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -87,7 +87,7 @@
 				<metadata-artifact status="no" details="" size="3536" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/run_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/run_2.12/1.1.2/run_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="run_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="18582" time="878" location="/home/guojing/.ivy2/cache/org.scala-sbt/run_2.12/srcs/run_2.12-1.1.2-sources.jar">
+					<artifact name="run_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18582" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/run_2.12/srcs/run_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/run_2.12/1.1.2/run_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -99,7 +99,7 @@
 				<metadata-artifact status="no" details="" size="4559" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/main-settings_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main-settings_2.12/1.1.2/main-settings_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="main-settings_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="39622" time="868" location="/home/guojing/.ivy2/cache/org.scala-sbt/main-settings_2.12/srcs/main-settings_2.12-1.1.2-sources.jar">
+					<artifact name="main-settings_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="39622" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/main-settings_2.12/srcs/main-settings_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main-settings_2.12/1.1.2/main-settings_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -111,7 +111,7 @@
 				<metadata-artifact status="no" details="" size="2820" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/core-macros_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/core-macros_2.12/1.1.2/core-macros_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="core-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="14926" time="2889" location="/home/guojing/.ivy2/cache/org.scala-sbt/core-macros_2.12/srcs/core-macros_2.12-1.1.2-sources.jar">
+					<artifact name="core-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14926" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/core-macros_2.12/srcs/core-macros_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/core-macros_2.12/1.1.2/core-macros_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -123,7 +123,7 @@
 				<metadata-artifact status="no" details="" size="4557" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/command_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/command_2.12/1.1.2/command_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="command_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30851" time="1422" location="/home/guojing/.ivy2/cache/org.scala-sbt/command_2.12/srcs/command_2.12-1.1.2-sources.jar">
+					<artifact name="command_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30851" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/command_2.12/srcs/command_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/command_2.12/1.1.2/command_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -147,7 +147,7 @@
 				<metadata-artifact status="no" details="" size="3529" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/completion_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/completion_2.12/1.1.2/completion_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="completion_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="29928" time="971" location="/home/guojing/.ivy2/cache/org.scala-sbt/completion_2.12/srcs/completion_2.12-1.1.2-sources.jar">
+					<artifact name="completion_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="29928" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/completion_2.12/srcs/completion_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/completion_2.12/1.1.2/completion_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -159,7 +159,7 @@
 				<metadata-artifact status="no" details="" size="3706" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/protocol_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/protocol_2.12/1.1.2/protocol_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="protocol_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9443" time="758" location="/home/guojing/.ivy2/cache/org.scala-sbt/protocol_2.12/srcs/protocol_2.12-1.1.2-sources.jar">
+					<artifact name="protocol_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9443" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/protocol_2.12/srcs/protocol_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/protocol_2.12/1.1.2/protocol_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -171,7 +171,7 @@
 				<metadata-artifact status="no" details="" size="3263" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/logic_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/logic_2.12/1.1.2/logic_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="logic_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5452" time="2887" location="/home/guojing/.ivy2/cache/org.scala-sbt/logic_2.12/srcs/logic_2.12-1.1.2-sources.jar">
+					<artifact name="logic_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5452" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/logic_2.12/srcs/logic_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/logic_2.12/1.1.2/logic_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -183,7 +183,7 @@
 				<metadata-artifact status="no" details="" size="3684" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/task-system_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/task-system_2.12/1.1.2/task-system_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="task-system_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9694" time="2872" location="/home/guojing/.ivy2/cache/org.scala-sbt/task-system_2.12/srcs/task-system_2.12-1.1.2-sources.jar">
+					<artifact name="task-system_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9694" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/task-system_2.12/srcs/task-system_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/task-system_2.12/1.1.2/task-system_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -195,7 +195,7 @@
 				<metadata-artifact status="no" details="" size="3660" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/testing_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/testing_2.12/1.1.2/testing_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="testing_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12871" time="925" location="/home/guojing/.ivy2/cache/org.scala-sbt/testing_2.12/srcs/testing_2.12-1.1.2-sources.jar">
+					<artifact name="testing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12871" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/testing_2.12/srcs/testing_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/testing_2.12/1.1.2/testing_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -208,7 +208,7 @@
 				<metadata-artifact status="no" details="" size="2458" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/launcher-interface/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/launcher-interface/1.0.3/launcher-interface-1.0.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="launcher-interface" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11216" time="2932" location="/home/guojing/.ivy2/cache/org.scala-sbt/launcher-interface/srcs/launcher-interface-1.0.3-sources.jar">
+					<artifact name="launcher-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11216" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/launcher-interface/srcs/launcher-interface-1.0.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/launcher-interface/1.0.3/launcher-interface-1.0.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -220,7 +220,7 @@
 				<metadata-artifact status="no" details="" size="2521" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/test-agent/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/test-agent/1.1.2/test-agent-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="test-agent" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6703" time="2802" location="/home/guojing/.ivy2/cache/org.scala-sbt/test-agent/srcs/test-agent-1.1.2-sources.jar">
+					<artifact name="test-agent" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6703" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/test-agent/srcs/test-agent-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/test-agent/1.1.2/test-agent-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -244,7 +244,7 @@
 				<metadata-artifact status="no" details="" size="3164" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-compile_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile_2.12/1.1.3/zinc-compile_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="zinc-compile_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1961" time="2810" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-compile_2.12/srcs/zinc-compile_2.12-1.1.3-sources.jar">
+					<artifact name="zinc-compile_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1961" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-compile_2.12/srcs/zinc-compile_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile_2.12/1.1.3/zinc-compile_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -256,7 +256,7 @@
 				<metadata-artifact status="no" details="" size="2922" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-tracking_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-tracking_2.12/1.1.3/util-tracking_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="util-tracking_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5259" time="3302" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-tracking_2.12/srcs/util-tracking_2.12-1.1.3-sources.jar">
+					<artifact name="util-tracking_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5259" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-tracking_2.12/srcs/util-tracking_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-tracking_2.12/1.1.3/util-tracking_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -268,7 +268,7 @@
 				<metadata-artifact status="no" details="" size="3262" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/tasks_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/tasks_2.12/1.1.2/tasks_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="tasks_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12499" time="631" location="/home/guojing/.ivy2/cache/org.scala-sbt/tasks_2.12/srcs/tasks_2.12-1.1.2-sources.jar">
+					<artifact name="tasks_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12499" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/tasks_2.12/srcs/tasks_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/tasks_2.12/1.1.2/tasks_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -280,7 +280,7 @@
 				<metadata-artifact status="no" details="" size="3282" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/collections_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/collections_2.12/1.1.2/collections_2.12-1.1.2.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="collections_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="30849" time="2728" location="/home/guojing/.ivy2/cache/org.scala-sbt/collections_2.12/srcs/collections_2.12-1.1.2-sources.jar">
+					<artifact name="collections_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30849" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/collections_2.12/srcs/collections_2.12-1.1.2-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/collections_2.12/1.1.2/collections_2.12-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -304,7 +304,7 @@
 				<metadata-artifact status="no" details="" size="3703" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc_2.12/1.1.3/zinc_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="zinc_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="15830" time="3040" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc_2.12/srcs/zinc_2.12-1.1.3-sources.jar">
+					<artifact name="zinc_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15830" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc_2.12/srcs/zinc_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc_2.12/1.1.3/zinc_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -316,7 +316,7 @@
 				<metadata-artifact status="no" details="" size="3102" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-ivy-integration_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-ivy-integration_2.12/1.1.3/zinc-ivy-integration_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="zinc-ivy-integration_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10027" time="880" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-ivy-integration_2.12/srcs/zinc-ivy-integration_2.12-1.1.3-sources.jar">
+					<artifact name="zinc-ivy-integration_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10027" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-ivy-integration_2.12/srcs/zinc-ivy-integration_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-ivy-integration_2.12/1.1.3/zinc-ivy-integration_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -328,7 +328,7 @@
 				<metadata-artifact status="no" details="" size="3283" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/librarymanagement-ivy_2.12/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-ivy_2.12/1.1.4/librarymanagement-ivy_2.12-1.1.4.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="librarymanagement-ivy_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="88813" time="3132" location="/home/guojing/.ivy2/cache/org.scala-sbt/librarymanagement-ivy_2.12/srcs/librarymanagement-ivy_2.12-1.1.4-sources.jar">
+					<artifact name="librarymanagement-ivy_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="88813" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/librarymanagement-ivy_2.12/srcs/librarymanagement-ivy_2.12-1.1.4-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-ivy_2.12/1.1.4/librarymanagement-ivy_2.12-1.1.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -352,7 +352,7 @@
 				<metadata-artifact status="no" details="" size="4648" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/librarymanagement-core_2.12/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-core_2.12/1.1.4/librarymanagement-core_2.12-1.1.4.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="librarymanagement-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="133479" time="2627" location="/home/guojing/.ivy2/cache/org.scala-sbt/librarymanagement-core_2.12/srcs/librarymanagement-core_2.12-1.1.4-sources.jar">
+					<artifact name="librarymanagement-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="133479" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/librarymanagement-core_2.12/srcs/librarymanagement-core_2.12-1.1.4-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-core_2.12/1.1.4/librarymanagement-core_2.12-1.1.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -364,7 +364,7 @@
 				<metadata-artifact status="no" details="" size="3215" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-cache_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-cache_2.12/1.1.3/util-cache_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="util-cache_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7188" time="2717" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-cache_2.12/srcs/util-cache_2.12-1.1.3-sources.jar">
+					<artifact name="util-cache_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7188" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-cache_2.12/srcs/util-cache_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-cache_2.12/1.1.3/util-cache_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -388,7 +388,7 @@
 				<metadata-artifact status="no" details="" size="2528" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-position_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-position_2.12/1.1.3/util-position_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="util-position_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="918" time="717" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-position_2.12/srcs/util-position_2.12-1.1.3-sources.jar">
+					<artifact name="util-position_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="918" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-position_2.12/srcs/util-position_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-position_2.12/1.1.3/util-position_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -520,7 +520,7 @@
 				<metadata-artifact status="no" details="" size="4425" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-compile-core_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile-core_2.12/1.1.3/zinc-compile-core_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="zinc-compile-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="32857" time="2739" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-compile-core_2.12/srcs/zinc-compile-core_2.12-1.1.3-sources.jar">
+					<artifact name="zinc-compile-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32857" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-compile-core_2.12/srcs/zinc-compile-core_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile-core_2.12/1.1.3/zinc-compile-core_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -532,7 +532,7 @@
 				<metadata-artifact status="no" details="" size="2526" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-control_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-control_2.12/1.1.3/util-control_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="util-control_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2386" time="786" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-control_2.12/srcs/util-control_2.12-1.1.3-sources.jar">
+					<artifact name="util-control_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2386" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-control_2.12/srcs/util-control_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-control_2.12/1.1.3/util-control_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -544,7 +544,7 @@
 				<metadata-artifact status="no" details="" size="2785" time="0" location="/home/guojing/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="43232" time="853" location="/home/guojing/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.5-sources.jar">
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43232" time="0" location="/home/guojing/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.5-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -556,7 +556,7 @@
 				<metadata-artifact status="no" details="" size="3305" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-persist_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-persist_2.12/1.1.3/zinc-persist_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="zinc-persist_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="48327" time="3179" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-persist_2.12/srcs/zinc-persist_2.12-1.1.3-sources.jar">
+					<artifact name="zinc-persist_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48327" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-persist_2.12/srcs/zinc-persist_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-persist_2.12/1.1.3/zinc-persist_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -640,7 +640,7 @@
 				<metadata-artifact status="no" details="" size="3961" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-core_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-core_2.12/1.1.3/zinc-core_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="zinc-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="53401" time="3082" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-core_2.12/srcs/zinc-core_2.12-1.1.3-sources.jar">
+					<artifact name="zinc-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53401" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-core_2.12/srcs/zinc-core_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-core_2.12/1.1.3/zinc-core_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -652,7 +652,7 @@
 				<metadata-artifact status="no" details="" size="2648" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-relation_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-relation_2.12/1.1.3/util-relation_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="util-relation_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2933" time="2959" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-relation_2.12/srcs/util-relation_2.12-1.1.3-sources.jar">
+					<artifact name="util-relation_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2933" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-relation_2.12/srcs/util-relation_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-relation_2.12/1.1.3/util-relation_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -664,7 +664,7 @@
 				<metadata-artifact status="no" details="" size="3439" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-classpath_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classpath_2.12/1.1.3/zinc-classpath_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="zinc-classpath_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="14109" time="2999" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-classpath_2.12/srcs/zinc-classpath_2.12-1.1.3-sources.jar">
+					<artifact name="zinc-classpath_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14109" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-classpath_2.12/srcs/zinc-classpath_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classpath_2.12/1.1.3/zinc-classpath_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -676,7 +676,7 @@
 				<metadata-artifact status="no" details="" size="3161" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-apiinfo_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-apiinfo_2.12/1.1.3/zinc-apiinfo_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="zinc-apiinfo_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25929" time="3036" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-apiinfo_2.12/srcs/zinc-apiinfo_2.12-1.1.3-sources.jar">
+					<artifact name="zinc-apiinfo_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25929" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-apiinfo_2.12/srcs/zinc-apiinfo_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-apiinfo_2.12/1.1.3/zinc-apiinfo_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -688,7 +688,7 @@
 				<metadata-artifact status="no" details="" size="3296" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-classfile_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classfile_2.12/1.1.3/zinc-classfile_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="zinc-classfile_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7713" time="780" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-classfile_2.12/srcs/zinc-classfile_2.12-1.1.3-sources.jar">
+					<artifact name="zinc-classfile_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7713" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/zinc-classfile_2.12/srcs/zinc-classfile_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classfile_2.12/1.1.3/zinc-classfile_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -700,7 +700,7 @@
 				<metadata-artifact status="no" details="" size="3767" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-logging_2.12/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-logging_2.12/1.1.3/util-logging_2.12-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="util-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28200" time="1045" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-logging_2.12/srcs/util-logging_2.12-1.1.3-sources.jar">
+					<artifact name="util-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28200" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-logging_2.12/srcs/util-logging_2.12-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-logging_2.12/1.1.3/util-logging_2.12-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -724,7 +724,7 @@
 				<metadata-artifact status="no" details="" size="5033" time="0" location="/home/guojing/.ivy2/cache/jline/jline/ivy-2.14.4.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/jline/jline/2.14.4/jline-2.14.4.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="2.14.4" rev-constraint-default="2.14.4" rev-constraint-dynamic="2.14.4" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="110183" time="2848" location="/home/guojing/.ivy2/cache/jline/jline/srcs/jline-2.14.4-sources.jar">
+					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="110183" time="0" location="/home/guojing/.ivy2/cache/jline/jline/srcs/jline-2.14.4-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/jline/jline/2.14.4/jline-2.14.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -748,7 +748,7 @@
 				<metadata-artifact status="no" details="" size="3131" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/io_2.12/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/io_2.12/1.1.4/io_2.12-1.1.4.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="io_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="38013" time="2787" location="/home/guojing/.ivy2/cache/org.scala-sbt/io_2.12/srcs/io_2.12-1.1.4-sources.jar">
+					<artifact name="io_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38013" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/io_2.12/srcs/io_2.12-1.1.4-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/io_2.12/1.1.4/io_2.12-1.1.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -822,7 +822,7 @@
 				<metadata-artifact status="no" details="" size="2655" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/compiler-interface/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/compiler-interface/1.1.3/compiler-interface-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="compiler-interface" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="35816" time="1379" location="/home/guojing/.ivy2/cache/org.scala-sbt/compiler-interface/srcs/compiler-interface-1.1.3-sources.jar">
+					<artifact name="compiler-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="35816" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/compiler-interface/srcs/compiler-interface-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/compiler-interface/1.1.3/compiler-interface-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -834,7 +834,7 @@
 				<metadata-artifact status="no" details="" size="2346" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-interface/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-interface/1.1.3/util-interface-1.1.3.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="util-interface" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1799" time="3266" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-interface/srcs/util-interface-1.1.3-sources.jar">
+					<artifact name="util-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1799" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/util-interface/srcs/util-interface-1.1.3-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-interface/1.1.3/util-interface-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -858,7 +858,7 @@
 				<metadata-artifact status="no" details="" size="2824" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/sbinary_2.12/ivy-0.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.4.4/sbinary_2.12-0.4.4.pom"/>
 				<caller organisation="default" name="journey-to-scala$sources_2.12" conf="test, compile, runtime" rev="0.4.4" rev-constraint-default="0.4.4" rev-constraint-dynamic="0.4.4" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="sbinary_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10053" time="2833" location="/home/guojing/.ivy2/cache/org.scala-sbt/sbinary_2.12/srcs/sbinary_2.12-0.4.4-sources.jar">
+					<artifact name="sbinary_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10053" time="0" location="/home/guojing/.ivy2/cache/org.scala-sbt/sbinary_2.12/srcs/sbinary_2.12-0.4.4-sources.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbinary_2.12/0.4.4/sbinary_2.12-0.4.4-sources.jar"/>
 					</artifact>
 				</artifacts>

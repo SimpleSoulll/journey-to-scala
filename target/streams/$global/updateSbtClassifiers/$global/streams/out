@@ -11655,13 +11655,13 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] :: resolution report :: resolve 2154ms :: artifacts dl 311ms
+[debug] :: resolution report :: resolve 1260ms :: artifacts dl 229ms
 [debug] 	report for default#journey-to-scala$sbt_2.12;0.1.0-SNAPSHOT compile produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sbt_2.12-compile.xml
 [debug] 	report for default#journey-to-scala$sbt_2.12;0.1.0-SNAPSHOT runtime produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sbt_2.12-runtime.xml
 [debug] 	report for default#journey-to-scala$sbt_2.12;0.1.0-SNAPSHOT test produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sbt_2.12-test.xml
 [debug] 	report for default#journey-to-scala$sbt_2.12;0.1.0-SNAPSHOT provided produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sbt_2.12-provided.xml
 [debug] 	report for default#journey-to-scala$sbt_2.12;0.1.0-SNAPSHOT optional produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sbt_2.12-optional.xml
-[debug] 	resolve done (2154ms resolve - 311ms download)
+[debug] 	resolve done (1260ms resolve - 229ms download)
 [debug] :: resolving dependencies :: default#journey-to-scala$sources_2.12;0.1.0-SNAPSHOT
 [debug] 	confs: [default, compile, runtime, test, provided, optional]
 [debug] 	validate = true
@@ -17023,240 +17023,368 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] com.github.cb372#scalacache-core_2.12;0.20.0!scalacache-core_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] 	[NOT REQUIRED] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar(src)
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
 [debug] no default ivy user dir defined: set to /home/guojing/.ivy2
 [debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (7ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar(src)
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (35ms)
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (29ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/util-interface/1.1.3/srcs/util-interface-sources.jar
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar(src)
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (13ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-interface/1.1.3/util-interface-1.1.3-sources.jar
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/main_2.12/1.1.2/srcs/main_2.12-sources.jar
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/zinc-classpath_2.12/1.1.3/srcs/zinc-classpath_2.12-sources.jar
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] settings loaded (22ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main_2.12/1.1.2/main_2.12-1.1.2-sources.jar
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/util-tracking_2.12/1.1.3/srcs/util-tracking_2.12-sources.jar
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] com.github.cb372#scalacache-core_2.12;0.20.0!scalacache-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.2!sjson-new-murmurhash_2.12.jar(src)
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310!ivy.jar(src)
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] settings loaded (56ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classpath_2.12/1.1.3/zinc-classpath_2.12-1.1.3-sources.jar
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (55ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/zinc-persist_2.12/1.1.3/srcs/zinc-persist_2.12-sources.jar
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] settings loaded (31ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (62ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] 	default [chain] [local, main]
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-tracking_2.12/1.1.3/util-tracking_2.12-1.1.3-sources.jar
-[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-slf4j-impl;2.8.1!log4j-slf4j-impl.jar(src)
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (10ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-persist_2.12/1.1.3/zinc-persist_2.12-1.1.3-sources.jar
-[debug] settings loaded (61ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/zinc-core_2.12/1.1.3/srcs/zinc-core_2.12-sources.jar
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar(src)
-[debug] settings loaded (7ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-core_2.12/1.1.3/zinc-core_2.12-1.1.3-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#main_2.12;1.1.2!main_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
 [debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar(src)
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-compile-core_2.12;1.1.3!zinc-compile-core_2.12.jar(src)
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (34ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] settings loaded (65ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (47ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (35ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-interface;1.1.3!util-interface.jar(src)
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] settings loaded (83ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (79ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (30ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar(src)
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.scala-sbt#tasks_2.12;1.1.2!tasks_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-compile_2.12;1.1.3!zinc-compile_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc_2.12;1.1.3!zinc_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-apiinfo_2.12;1.1.3!zinc-apiinfo_2.12.jar(src)
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (34ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-position_2.12;1.1.3!util-position_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classpath_2.12;1.1.3!zinc-classpath_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.scala-sbt#collections_2.12;1.1.2!collections_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#logic_2.12;1.1.2!logic_2.12.jar(src)
+[debug] settings loaded (38ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] jline#jline;2.14.4!jline.jar(src)
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (27ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-ivy_2.12;1.1.4!librarymanagement-ivy_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#io_2.12;1.1.4!io_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-control_2.12;1.1.3!util-control_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar(src)
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310!ivy.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-relation_2.12;1.1.3!util-relation_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.12.0!okio.jar(src)
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (31ms)
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (45ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (36ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (46ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (30ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	[NOT REQUIRED] org.scala-sbt#core-macros_2.12;1.1.2!core-macros_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#testing_2.12;1.1.2!testing_2.12.jar(src)
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-core_2.12;1.1.3!zinc-core_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] 	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.5.0!jna-platform.jar(src)
+[debug] 	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;1.1.2!test-agent.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar(src)
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-persist_2.12;1.1.3!zinc-persist_2.12.jar(src)
+[debug] 	[NOT REQUIRED] net.java.dev.jna#jna;4.5.0!jna.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.1.3!compiler-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#command_2.12;1.1.2!command_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#run_2.12;1.1.2!run_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-logging_2.12;1.1.3!util-logging_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt.ipcsocket#ipcsocket;1.0.0!ipcsocket.jar(src)
+[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-core_2.12;0.8.2!sjson-new-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.lmax#disruptor;3.3.6!disruptor.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classfile_2.12;1.1.3!zinc-classfile_2.12.jar(src)
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.3!launcher-interface.jar(src)
+[debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.54!jsch.jar(src)
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-cache_2.12;1.1.3!util-cache_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(src)
+[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-tracking_2.12;1.1.3!util-tracking_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-core_2.12;1.1.4!librarymanagement-core_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-scalajson_2.12;0.8.2!sjson-new-scalajson_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-ivy-integration_2.12;1.1.3!zinc-ivy-integration_2.12.jar(src)
+[debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar(src)
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.github.ben-manes.caffeine#caffeine;2.5.6!caffeine.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
 [debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/zinc_2.12/1.1.3/srcs/zinc_2.12-sources.jar
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
 [debug] no default cache defined: set to /home/guojing/.ivy2/cache
 [debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-slf4j-impl;2.8.1!log4j-slf4j-impl.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbinary_2.12;0.4.4!sbinary_2.12.jar(src)
 [debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (23ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.scala-sbt#protocol_2.12;1.1.2!protocol_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.1.2!main-settings_2.12.jar(src)
 [debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] no default cache defined: set to /home/guojing/.ivy2/cache
+[debug] settings loaded (20ms)
 [debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar(src)
 [debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (61ms)
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (42ms)
 [debug] 	default cache: /home/guojing/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -17266,206 +17394,6 @@
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (67ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/task-system_2.12/1.1.2/srcs/task-system_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/task-system_2.12/1.1.2/task-system_2.12-1.1.2-sources.jar
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/librarymanagement-ivy_2.12/1.1.4/srcs/librarymanagement-ivy_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-ivy_2.12/1.1.4/librarymanagement-ivy_2.12-1.1.4-sources.jar
-[debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.12.0!okio.jar(src)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/launcher-interface/1.0.3/srcs/launcher-interface-sources.jar
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/core-macros_2.12/1.1.2/srcs/core-macros_2.12-sources.jar
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/zinc-compile-core_2.12/1.1.3/srcs/zinc-compile-core_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/core-macros_2.12/1.1.2/core-macros_2.12-1.1.2-sources.jar
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/test-agent/1.1.2/srcs/test-agent-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/test-agent/1.1.2/test-agent-1.1.2-sources.jar
-[debug] 		tried /home/guojing/.ivy2/local/jline/jline/2.14.4/srcs/jline-sources.jar
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] settings loaded (97ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc_2.12/1.1.3/zinc_2.12-1.1.3-sources.jar
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/io_2.12/1.1.4/srcs/io_2.12-sources.jar
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/zinc-apiinfo_2.12/1.1.3/srcs/zinc-apiinfo_2.12-sources.jar
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-apiinfo_2.12/1.1.3/zinc-apiinfo_2.12-1.1.3-sources.jar
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/logic_2.12/1.1.2/srcs/logic_2.12-sources.jar
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/collections_2.12/1.1.2/srcs/collections_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/collections_2.12/1.1.2/collections_2.12-1.1.2-sources.jar
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] settings loaded (82ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (29ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (17ms)
-[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(src)
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (41ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/jline/jline/2.14.4/jline-2.14.4-sources.jar
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] settings loaded (37ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/launcher-interface/1.0.3/launcher-interface-1.0.3-sources.jar
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-core_2.12;0.8.2!sjson-new-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/librarymanagement-core_2.12/1.1.4/srcs/librarymanagement-core_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-core_2.12/1.1.4/librarymanagement-core_2.12-1.1.4-sources.jar
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/sbinary_2.12/0.4.4/srcs/sbinary_2.12-sources.jar
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbinary_2.12/0.4.4/sbinary_2.12-0.4.4-sources.jar
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile-core_2.12/1.1.3/zinc-compile-core_2.12-1.1.3-sources.jar
-[debug] 	[NOT REQUIRED] com.lmax#disruptor;3.3.6!disruptor.jar(src)
-[debug] settings loaded (35ms)
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/logic_2.12/1.1.2/logic_2.12-1.1.2-sources.jar
-[debug] settings loaded (29ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/io_2.12/1.1.4/io_2.12-1.1.4-sources.jar
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/util-relation_2.12/1.1.3/srcs/util-relation_2.12-sources.jar
-[debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.54!jsch.jar(src)
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (31ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/zinc-compile_2.12/1.1.3/srcs/zinc-compile_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile_2.12/1.1.3/zinc-compile_2.12-1.1.3-sources.jar
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/actions_2.12/1.1.2/srcs/actions_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/actions_2.12/1.1.2/actions_2.12-1.1.2-sources.jar
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] settings loaded (26ms)
 [debug] 	default cache: /home/guojing/.ivy2/cache
 [debug] 	default resolver: default
@@ -17475,286 +17403,28 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar(src)
-[debug] no default ivy user dir defined: set to /home/guojing/.ivy2
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/guojing/.ivy2/cache
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (4ms)
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar(src)
-[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
-[debug] settings loaded (44ms)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/util-cache_2.12/1.1.3/srcs/util-cache_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-cache_2.12/1.1.3/util-cache_2.12-1.1.3-sources.jar
-[debug] 	default cache: /home/guojing/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-relation_2.12/1.1.3/util-relation_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/actions_2.12/1.1.2/actions_2.12-1.1.2-sources.jar ...
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/launcher-interface/1.0.3/launcher-interface-1.0.3-sources.jar ...
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-interface/1.1.3/util-interface-1.1.3-sources.jar ...
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-core_2.12/1.1.3/zinc-core_2.12-1.1.3-sources.jar ...
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-persist_2.12/1.1.3/zinc-persist_2.12-1.1.3-sources.jar ...
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-cache_2.12/1.1.3/util-cache_2.12-1.1.3-sources.jar ...
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main_2.12/1.1.2/main_2.12-1.1.2-sources.jar ...
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc_2.12/1.1.3/zinc_2.12-1.1.3-sources.jar ...
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-ivy_2.12/1.1.4/librarymanagement-ivy_2.12-1.1.4-sources.jar ...
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/io_2.12/1.1.4/io_2.12-1.1.4-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-cache_2.12/1.1.3/util-cache_2.12-1.1.3-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc_2.12/1.1.3/zinc_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/collections_2.12/1.1.2/collections_2.12-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/collections_2.12/1.1.2/collections_2.12-1.1.2-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-persist_2.12/1.1.3/zinc-persist_2.12-1.1.3-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-interface/1.1.3/util-interface-1.1.3-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-core_2.12/1.1.3/zinc-core_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/task-system_2.12/1.1.2/task-system_2.12-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/task-system_2.12/1.1.2/task-system_2.12-1.1.2-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/launcher-interface/1.0.3/launcher-interface-1.0.3-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/io_2.12/1.1.4/io_2.12-1.1.4-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-ivy_2.12/1.1.4/librarymanagement-ivy_2.12-1.1.4-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main_2.12/1.1.2/main_2.12-1.1.2-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/actions_2.12/1.1.2/actions_2.12-1.1.2-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbinary_2.12/0.4.4/sbinary_2.12-0.4.4-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbinary_2.12/0.4.4/sbinary_2.12-0.4.4-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-tracking_2.12/1.1.3/util-tracking_2.12-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-tracking_2.12/1.1.3/util-tracking_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/jline/jline/2.14.4/jline-2.14.4-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/jline/jline/2.14.4/jline-2.14.4-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-core_2.12/1.1.4/librarymanagement-core_2.12-1.1.4-sources.jar ...
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-relation_2.12/1.1.3/util-relation_2.12-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-relation_2.12/1.1.3/util-relation_2.12-1.1.3-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-core_2.12/1.1.4/librarymanagement-core_2.12-1.1.4-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/logic_2.12/1.1.2/logic_2.12-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/logic_2.12/1.1.2/logic_2.12-1.1.2-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/core-macros_2.12/1.1.2/core-macros_2.12-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/core-macros_2.12/1.1.2/core-macros_2.12-1.1.2-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile_2.12/1.1.3/zinc-compile_2.12-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile_2.12/1.1.3/zinc-compile_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-apiinfo_2.12/1.1.3/zinc-apiinfo_2.12-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-apiinfo_2.12/1.1.3/zinc-apiinfo_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classpath_2.12/1.1.3/zinc-classpath_2.12-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classpath_2.12/1.1.3/zinc-classpath_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile-core_2.12/1.1.3/zinc-compile-core_2.12-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile-core_2.12/1.1.3/zinc-compile-core_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/test-agent/1.1.2/test-agent-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/test-agent/1.1.2/test-agent-1.1.2-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile-core_2.12/1.1.3/zinc-compile-core_2.12-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-core_2.12/1.1.4/librarymanagement-core_2.12-1.1.4-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main_2.12/1.1.2/main_2.12-1.1.2-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/test-agent/1.1.2/test-agent-1.1.2-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/core-macros_2.12/1.1.2/core-macros_2.12-1.1.2-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/launcher-interface/1.0.3/launcher-interface-1.0.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/collections_2.12/1.1.2/collections_2.12-1.1.2-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/logic_2.12/1.1.2/logic_2.12-1.1.2-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/io_2.12/1.1.4/io_2.12-1.1.4-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-core_2.12/1.1.3/zinc-core_2.12-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/task-system_2.12/1.1.2/task-system_2.12-1.1.2-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classpath_2.12/1.1.3/zinc-classpath_2.12-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-cache_2.12/1.1.3/util-cache_2.12-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile_2.12/1.1.3/zinc-compile_2.12-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbinary_2.12/0.4.4/sbinary_2.12-0.4.4-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-persist_2.12/1.1.3/zinc-persist_2.12-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/jline/jline/2.14.4/jline-2.14.4-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-interface/1.1.3/util-interface-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-tracking_2.12/1.1.3/util-tracking_2.12-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc_2.12/1.1.3/zinc_2.12-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-relation_2.12/1.1.3/util-relation_2.12-1.1.3-sources.jar.sha1
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-core_2.12/1.1.4/librarymanagement-core_2.12-1.1.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.1.4!librarymanagement-core_2.12.jar(src) (2627ms)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/sbt/1.1.2/srcs/sbt-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbt/1.1.2/sbt-1.1.2-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-ivy_2.12/1.1.4/librarymanagement-ivy_2.12-1.1.4-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-apiinfo_2.12/1.1.3/zinc-apiinfo_2.12-1.1.3-sources.jar.sha1
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main_2.12/1.1.2/main_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.1.2!main_2.12.jar(src) (2959ms)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/util-position_2.12/1.1.3/srcs/util-position_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-position_2.12/1.1.3/util-position_2.12-1.1.3-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/collections_2.12/1.1.2/collections_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.1.2!collections_2.12.jar(src) (2728ms)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/test-agent/1.1.2/test-agent-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.1.2!test-agent.jar(src) (2802ms)
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/actions_2.12/1.1.2/actions_2.12-1.1.2-sources.jar.sha1
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile-core_2.12/1.1.3/zinc-compile-core_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.1.3!zinc-compile-core_2.12.jar(src) (2739ms)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classpath_2.12/1.1.3/zinc-classpath_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.1.3!zinc-classpath_2.12.jar(src) (2999ms)
-[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar(src)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/protocol_2.12/1.1.2/srcs/protocol_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/protocol_2.12/1.1.2/protocol_2.12-1.1.2-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-cache_2.12/1.1.3/util-cache_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.1.3!util-cache_2.12.jar(src) (2717ms)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/task-system_2.12/1.1.2/task-system_2.12-1.1.2-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/io_2.12/1.1.4/io_2.12-1.1.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.1.2!task-system_2.12.jar(src) (2872ms)
-[info] 	[SUCCESSFUL ] org.scala-sbt#io_2.12;1.1.4!io_2.12.jar(src) (2787ms)
-[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar(src)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/core-macros_2.12/1.1.2/core-macros_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.1.2!core-macros_2.12.jar(src) (2889ms)
-[debug] 	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.5.0!jna-platform.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar(src)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbinary_2.12/0.4.4/sbinary_2.12-0.4.4-sources.jar
-[debug] 	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar(src)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/jline/jline/2.14.4/jline-2.14.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#sbinary_2.12;0.4.4!sbinary_2.12.jar(src) (2833ms)
-[debug] 	[NOT REQUIRED] com.github.ben-manes.caffeine#caffeine;2.5.6!caffeine.jar(src)
-[info] 	[SUCCESSFUL ] jline#jline;2.14.4!jline.jar(src) (2848ms)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-compile_2.12/1.1.3/zinc-compile_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.1.3!zinc-compile_2.12.jar(src) (2810ms)
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(src)
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-position_2.12/1.1.3/util-position_2.12-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-position_2.12/1.1.3/util-position_2.12-1.1.3-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/logic_2.12/1.1.2/logic_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.1.2!logic_2.12.jar(src) (2887ms)
-[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar(src)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-core_2.12/1.1.3/zinc-core_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.1.3!zinc-core_2.12.jar(src) (3082ms)
-[debug] 	[NOT REQUIRED] net.java.dev.jna#jna;4.5.0!jna.jar(src)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/command_2.12/1.1.2/srcs/command_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/command_2.12/1.1.2/command_2.12-1.1.2-sources.jar
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/testing_2.12/1.1.2/srcs/testing_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/testing_2.12/1.1.2/testing_2.12-1.1.2-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/launcher-interface/1.0.3/launcher-interface-1.0.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#launcher-interface;1.0.3!launcher-interface.jar(src) (2932ms)
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/protocol_2.12/1.1.2/protocol_2.12-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/protocol_2.12/1.1.2/protocol_2.12-1.1.2-sources.jar
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.12/1.0.5/srcs/scala-parser-combinators_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5-sources.jar
 [debug] 	[NOT REQUIRED] com.github.cb372#scalacache-caffeine_2.12;0.20.0!scalacache-caffeine_2.12.jar(src)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-interface/1.1.3/util-interface-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.1.3!util-interface.jar(src) (3266ms)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/tasks_2.12/1.1.2/srcs/tasks_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/tasks_2.12/1.1.2/tasks_2.12-1.1.2-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-persist_2.12/1.1.3/zinc-persist_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.1.3!zinc-persist_2.12.jar(src) (3179ms)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/compiler-interface/1.1.3/srcs/compiler-interface-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/compiler-interface/1.1.3/compiler-interface-1.1.3-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc_2.12/1.1.3/zinc_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.1.3!zinc_2.12.jar(src) (3040ms)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-apiinfo_2.12/1.1.3/zinc-apiinfo_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.1.3!zinc-apiinfo_2.12.jar(src) (3036ms)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/zinc-classfile_2.12/1.1.3/srcs/zinc-classfile_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classfile_2.12/1.1.3/zinc-classfile_2.12-1.1.3-sources.jar
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/zinc-ivy-integration_2.12/1.1.3/srcs/zinc-ivy-integration_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-ivy-integration_2.12/1.1.3/zinc-ivy-integration_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbt/1.1.2/sbt-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbt/1.1.2/sbt-1.1.2-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-relation_2.12/1.1.3/util-relation_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.1.3!util-relation_2.12.jar(src) (2959ms)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/util-logging_2.12/1.1.3/srcs/util-logging_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-logging_2.12/1.1.3/util-logging_2.12-1.1.3-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/librarymanagement-ivy_2.12/1.1.4/librarymanagement-ivy_2.12-1.1.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.1.4!librarymanagement-ivy_2.12.jar(src) (3132ms)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/util-control_2.12/1.1.3/srcs/util-control_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-control_2.12/1.1.3/util-control_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/command_2.12/1.1.2/command_2.12-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/command_2.12/1.1.2/command_2.12-1.1.2-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/actions_2.12/1.1.2/actions_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.1.2!actions_2.12.jar(src) (3030ms)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-tracking_2.12/1.1.3/util-tracking_2.12-1.1.3-sources.jar
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/completion_2.12/1.1.2/srcs/completion_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/completion_2.12/1.1.2/completion_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.1.3!util-tracking_2.12.jar(src) (3302ms)
-[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar(src)
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/compiler-interface/1.1.3/compiler-interface-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/compiler-interface/1.1.3/compiler-interface-1.1.3-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-position_2.12/1.1.3/util-position_2.12-1.1.3-sources.jar.sha1
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/testing_2.12/1.1.2/testing_2.12-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/testing_2.12/1.1.2/testing_2.12-1.1.2-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/protocol_2.12/1.1.2/protocol_2.12-1.1.2-sources.jar.sha1
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/tasks_2.12/1.1.2/tasks_2.12-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/tasks_2.12/1.1.2/tasks_2.12-1.1.2-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classfile_2.12/1.1.3/zinc-classfile_2.12-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classfile_2.12/1.1.3/zinc-classfile_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-ivy-integration_2.12/1.1.3/zinc-ivy-integration_2.12-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-ivy-integration_2.12/1.1.3/zinc-ivy-integration_2.12-1.1.3-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/completion_2.12/1.1.2/completion_2.12-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/completion_2.12/1.1.2/completion_2.12-1.1.2-sources.jar
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-logging_2.12/1.1.3/util-logging_2.12-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-logging_2.12/1.1.3/util-logging_2.12-1.1.3-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/testing_2.12/1.1.2/testing_2.12-1.1.2-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/tasks_2.12/1.1.2/tasks_2.12-1.1.2-sources.jar.sha1
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-position_2.12/1.1.3/util-position_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.1.3!util-position_2.12.jar(src) (717ms)
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-control_2.12/1.1.3/util-control_2.12-1.1.3-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-control_2.12/1.1.3/util-control_2.12-1.1.3-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classfile_2.12/1.1.3/zinc-classfile_2.12-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbt/1.1.2/sbt-1.1.2-sources.jar.sha1
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/protocol_2.12/1.1.2/protocol_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.1.2!protocol_2.12.jar(src) (758ms)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/main-settings_2.12/1.1.2/srcs/main-settings_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main-settings_2.12/1.1.2/main-settings_2.12-1.1.2-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-ivy-integration_2.12/1.1.3/zinc-ivy-integration_2.12-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/completion_2.12/1.1.2/completion_2.12-1.1.2-sources.jar.sha1
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/tasks_2.12/1.1.2/tasks_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.1.2!tasks_2.12.jar(src) (631ms)
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/command_2.12/1.1.2/command_2.12-1.1.2-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/compiler-interface/1.1.3/compiler-interface-1.1.3-sources.jar.sha1
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-control_2.12/1.1.3/util-control_2.12-1.1.3-sources.jar.sha1
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main-settings_2.12/1.1.2/main-settings_2.12-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main-settings_2.12/1.1.2/main-settings_2.12-1.1.2-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-logging_2.12/1.1.3/util-logging_2.12-1.1.3-sources.jar.sha1
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/sbt/1.1.2/sbt-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#sbt;1.1.2!sbt.jar(src) (1112ms)
+[debug] 	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.1.2!actions_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#completion_2.12;1.1.2!completion_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#task-system_2.12;1.1.2!task-system_2.12.jar(src)
+[debug] including url: jar:file:/home/guojing/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (42ms)
+[debug] 	default cache: /home/guojing/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbt;1.1.2!sbt.jar(src)
 [debug] 	[NOT REQUIRED] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar(src)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-classfile_2.12/1.1.3/zinc-classfile_2.12-1.1.3-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.1.3!zinc-classfile_2.12.jar(src) (780ms)
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(src) (853ms)
-[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-scalajson_2.12;0.8.2!sjson-new-scalajson_2.12.jar(src)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-control_2.12/1.1.3/util-control_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.1.3!util-control_2.12.jar(src) (786ms)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/testing_2.12/1.1.2/testing_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.1.2!testing_2.12.jar(src) (925ms)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/zinc-ivy-integration_2.12/1.1.3/zinc-ivy-integration_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#zinc-ivy-integration_2.12;1.1.3!zinc-ivy-integration_2.12.jar(src) (880ms)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/completion_2.12/1.1.2/completion_2.12-1.1.2-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/command_2.12/1.1.2/command_2.12-1.1.2-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main-settings_2.12/1.1.2/main-settings_2.12-1.1.2-sources.jar.sha1
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/compiler-interface/1.1.3/compiler-interface-1.1.3-sources.jar
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/util-logging_2.12/1.1.3/util-logging_2.12-1.1.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.1.2!completion_2.12.jar(src) (971ms)
-[info] 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.1.3!util-logging_2.12.jar(src) (1045ms)
-[debug] 	[NOT REQUIRED] org.scala-sbt.ipcsocket#ipcsocket;1.0.0!ipcsocket.jar(src)
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/main-settings_2.12/1.1.2/main-settings_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.1.2!command_2.12.jar(src) (1422ms)
-[info] 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.1.3!compiler-interface.jar(src) (1379ms)
-[debug] 		tried /home/guojing/.ivy2/local/org.scala-sbt/run_2.12/1.1.2/srcs/run_2.12-sources.jar
-[debug] 		tried http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/run_2.12/1.1.2/run_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.1.2!main-settings_2.12.jar(src) (868ms)
-[info] downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/run_2.12/1.1.2/run_2.12-1.1.2-sources.jar ...
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/run_2.12/1.1.2/run_2.12-1.1.2-sources.jar
-[debug] 	aliyun: downloading http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/run_2.12/1.1.2/run_2.12-1.1.2-sources.jar.sha1
-[debug] sha1 OK for http://maven.aliyun.com/nexus/content/groups/public/org/scala-sbt/run_2.12/1.1.2/run_2.12-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.1.2!run_2.12.jar(src) (878ms)
-[debug] :: resolution report :: resolve 989ms :: artifacts dl 5616ms
+[debug] :: resolution report :: resolve 997ms :: artifacts dl 358ms
 [debug] 	report for default#journey-to-scala$sources_2.12;0.1.0-SNAPSHOT default produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources_2.12-default.xml
 [debug] 	report for default#journey-to-scala$sources_2.12;0.1.0-SNAPSHOT compile produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources_2.12-compile.xml
 [debug] 	report for default#journey-to-scala$sources_2.12;0.1.0-SNAPSHOT runtime produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources_2.12-runtime.xml
 [debug] 	report for default#journey-to-scala$sources_2.12;0.1.0-SNAPSHOT test produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources_2.12-test.xml
 [debug] 	report for default#journey-to-scala$sources_2.12;0.1.0-SNAPSHOT provided produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources_2.12-provided.xml
 [debug] 	report for default#journey-to-scala$sources_2.12;0.1.0-SNAPSHOT optional produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources_2.12-optional.xml
-[debug] 	resolve done (989ms resolve - 5616ms download)
+[debug] 	resolve done (997ms resolve - 358ms download)
