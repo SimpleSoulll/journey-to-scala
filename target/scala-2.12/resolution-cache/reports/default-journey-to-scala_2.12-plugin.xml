@@ -4,10 +4,10 @@
 	<info
 		organisation="default"
 		module="journey-to-scala_2.12"
-		revision="0.1.0-SNAPSHOT"
+		revision="1.0"
 		conf="plugin"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190607134600"/>
+		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190607134708"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

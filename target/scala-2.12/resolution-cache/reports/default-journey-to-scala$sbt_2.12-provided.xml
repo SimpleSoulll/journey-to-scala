@@ -4,10 +4,10 @@
 	<info
 		organisation="default"
 		module="journey-to-scala$sbt_2.12"
-		revision="0.1.0-SNAPSHOT"
+		revision="1.0"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional"
-		date="20190607134601"/>
+		date="20190607134734"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>
