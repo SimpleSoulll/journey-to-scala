@@ -1,14 +1,13 @@
 package me.simplesoul.circe.decoder
 
-import io.circe.{ACursor, Json, JsonNumber}
-import me.simplesoul.circe.encoder.{BaseEncoder, CodingMonkey, Person}
+import io.circe.{Json, JsonNumber}
+import me.simplesoul.circe.encoder.BaseEncoder
 import io.circe.generic.auto._
 import io.circe.parser.parse
-import me.simplesoul.Helper._
+import me.simplesoul.util.Helper._
 
 import scala.language.dynamics
-import scala.util.{Failure, Success, Try}
-import scala.collection.mutable
+import scala.util.Try
 import scala.collection.mutable.ListBuffer
 
 object DynamicJsonDecoder {

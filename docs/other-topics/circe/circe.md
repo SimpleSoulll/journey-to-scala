@@ -8,9 +8,10 @@ circe依赖([maven]):
 
 json处理的实质就是序列化和反序列化，将特定对象序列化成Json对象的操作可以称为json序列化，将Json对象反序列化成特定对象的操作可以被成为Json反序列化，在circe中这两个操作分别称为Decode和Encode。更一般地，有时需要将特定对象序列化成Json对象，然后序列化成字符串，或将字符串反序列化成Json对象，然后将Json对象反序列化成特定对象。
 
-Json对象和字符串之间的序列化和反序列化比较简单：
+Json对象和字符串之间的序列化和反序列化比较简单：  
 Json <=> String
-    val jsonString = """ { "A": "a", "B": [1,2,3] } """
+
+`    val jsonString = """ { "A": "a", "B": [1,2,3] } """
     
     // String => Json
     val json = parseString(jsonString)
@@ -36,7 +37,7 @@ Json <=> String
                                       |        2,
                                       |        3
                                       |    ]
-                                      |}""".stripMargin)
+                                      |}""".stripMargin)`
 
 在说明decode和encode之前先明确以下几点,以下所说的序列化都是指Json序列化：
 
@@ -50,3 +51,5 @@ Json <=> String
 
 
 object => Json
+
+

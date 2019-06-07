@@ -16,8 +16,5 @@ FP &amp; Scala
 
 ## other topics
 
-> **circe related**
-- encode(序列化)  
-1.  序列化对象
-2.  序列化Any对象
-3.  序列化泛型对象
+> **circe related**  @ docs/other-topics/circe/circe.md
+

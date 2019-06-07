@@ -1,4 +1,4 @@
-package me.simplesoul
+package me.simplesoul.util
 
 import scala.annotation.StaticAnnotation
 import scala.util.{Failure, Success, Try}
@@ -17,7 +17,7 @@ object Helper {
   /**
    * @author: Simple Soul
    * @date: 19-05-31 19:20
-   * @description: transform an Enther[Exception, T] to Try[T]
+   * @description: transform an Either[Exception, T] to Try[T]
    * @params: Either[Exception, T]
   */
   implicit class EitherToTry[T](either: Either[Exception, T]) {
@@ -28,4 +28,3 @@ object Helper {
     def out = println(content.toString)
   }
 }
-

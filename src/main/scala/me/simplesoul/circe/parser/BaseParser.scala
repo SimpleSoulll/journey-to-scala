@@ -3,7 +3,7 @@ package me.simplesoul.circe.parser
 import io.circe.Json
 import io.circe.parser.parse
 import me.simplesoul.circe.ParseException
-import me.simplesoul.Helper._
+import me.simplesoul.util.Helper._
 import scala.util.Try
 
 /**
