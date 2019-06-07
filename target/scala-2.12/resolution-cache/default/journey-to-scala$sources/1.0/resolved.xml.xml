@@ -4,7 +4,7 @@
 		module="journey-to-scala$sources"
 		revision="1.0"
 		status="integration"
-		publication="20190607134739"
+		publication="20190607200325"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
