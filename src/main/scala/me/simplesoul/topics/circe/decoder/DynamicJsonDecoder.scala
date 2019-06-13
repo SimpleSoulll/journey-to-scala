@@ -1,7 +1,7 @@
-package me.simplesoul.circe.decoder
+package me.simplesoul.topics.circe.decoder
 
 import io.circe.{Json, JsonNumber}
-import me.simplesoul.circe.encoder.BaseEncoder
+import me.simplesoul.topics.circe.encoder.BaseEncoder
 import io.circe.generic.auto._
 import io.circe.parser.parse
 import me.simplesoul.util.Helper._
@@ -10,6 +10,7 @@ import scala.language.dynamics
 import scala.util.Try
 import scala.collection.mutable.ListBuffer
 
+// TODO
 object DynamicJsonDecoder {
 
   def main(args: Array[String]): Unit = {

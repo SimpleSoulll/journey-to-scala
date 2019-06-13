@@ -1,9 +1,9 @@
-package me.simplesoul.circe.parser
+package me.simplesoul.topics.circe.parser
 
-import io.circe.Json
+import io.circe.{Decoder, Json}
 import io.circe.parser.parse
-import me.simplesoul.circe.ParseException
 import me.simplesoul.util.Helper._
+
 import scala.util.Try
 
 /**
@@ -11,9 +11,7 @@ import scala.util.Try
   * @date: Create at 19-6-4 18:18
   * @description: Json对象与字符串之间的序列化和反序列化
   */
-object BaseParser {
-
-  def main(args: Array[String]): Unit = {
+object BaseParser extends App {
 
     val jsonString = """ { "A": "a", "B": [1,2,3] } """
     val json = parseString(jsonString)
@@ -22,23 +20,10 @@ object BaseParser {
     val jsonStringWith4Spaces = json.get.spaces4
     val jsonStringWith2Spaces = json.get.spaces2
     assert(jsonStringWithoutSpaces == """{"A":"a","B":[1,2,3]}""")
-    assert(jsonStringWith2Spaces == """{
-                               |  "A" : "a",
-                               |  "B" : [
-                               |    1,
-                               |    2,
-                               |    3
-                               |  ]
-                               |}""".stripMargin)
-    assert(jsonStringWith4Spaces == """{
-                                      |    "A" : "a",
-                                      |    "B" : [
-                                      |        1,
-                                      |        2,
-                                      |        3
-                                      |    ]
-                                      |}""".stripMargin)
-  }
+    jsonStringWith2Spaces.out
+    jsonStringWith4Spaces.out
+
+
 
   /**
    * @author: Simple Soul
