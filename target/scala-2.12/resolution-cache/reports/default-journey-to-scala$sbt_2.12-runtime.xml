@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional"
-		date="20190607134734"/>
+		date="20190613140753"/>
 	<dependencies>
 		<module organisation="net.virtual-void" name="sbt-dependency-graph">
 			<revision name="0.9.0" status="release" pubdate="20171025002207" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jrudolph/sbt-dependency-graph" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="106">

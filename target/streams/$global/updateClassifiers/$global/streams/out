@@ -4421,21 +4421,21 @@
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.11!akka-stream_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.3!shapeless_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.13.0!jawn-parser_2.12.jar(src)
 [debug] 	[NOT REQUIRED] de.heikoseeberger#akka-http-circe_2.12;1.20.1!akka-http-circe_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.github.julien-truffaut#newts-core_2.12;0.3.1!newts-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.11!akka-protobuf_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.12;1.4.0!cats-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;1.4.0!cats-kernel_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.5!machinist_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-free_2.12;1.1.0!cats-free_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;1.4.0!cats-kernel_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] io.circe#circe-jawn_2.12;0.10.0!circe-jawn_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.5!machinist_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
-[debug] 	[NOT REQUIRED] io.circe#circe-parser_2.12;0.10.0!circe-parser_2.12.jar(src)
 [debug] 	[NOT REQUIRED] io.circe#circe-numbers_2.12;0.10.0!circe-numbers_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.11!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] io.circe#circe-parser_2.12;0.10.0!circe-parser_2.12.jar(src)
 [debug] 	[NOT REQUIRED] io.circe#circe-optics_2.12;0.10.0!circe-optics_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] io.circe#circe-core_2.12;0.10.0!circe-core_2.12.jar(src)
@@ -4444,12 +4444,12 @@
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.1!akka-http-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.7!scalactic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.1.0!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.7!scalatest_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] :: resolution report :: resolve 996ms :: artifacts dl 67ms
+[debug] :: resolution report :: resolve 310ms :: artifacts dl 12ms
 [debug] 	report for default#journey-to-scala$sources;1.0 compile produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources-compile.xml
 [debug] 	report for default#journey-to-scala$sources;1.0 runtime produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources-runtime.xml
 [debug] 	report for default#journey-to-scala$sources;1.0 test produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources-test.xml
@@ -4464,4 +4464,4 @@
 [debug] 	report for default#journey-to-scala$sources;1.0 plugin produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources-plugin.xml
 [debug] 	report for default#journey-to-scala$sources;1.0 pom produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources-pom.xml
 [debug] 	report for default#journey-to-scala$sources;1.0 scala-tool produced in /home/guojing/app/journey-to-scala/target/scala-2.12/resolution-cache/reports/default-journey-to-scala$sources-scala-tool.xml
-[debug] 	resolve done (996ms resolve - 67ms download)
+[debug] 	resolve done (310ms resolve - 12ms download)

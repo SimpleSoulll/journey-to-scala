@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190607134708"/>
+		date="20190613140750"/>
 	<dependencies>
 		<module organisation="de.heikoseeberger" name="akka-http-circe_2.12">
 			<revision name="1.20.1" status="release" pubdate="20180906223821" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/hseeberger/akka-http-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
