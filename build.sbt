@@ -13,7 +13,9 @@ libraryDependencies ++= Seq (
   "io.circe" %% "circe-generic" % "0.10.0",
   "io.circe" %% "circe-parser" % "0.10.0",
   "io.circe" %% "circe-optics" % "0.10.0",
-  "de.heikoseeberger" %% "akka-http-circe" % "1.20.1" // circe extension
+  "de.heikoseeberger" %% "akka-http-circe" % "1.20.1", // circe extension
+  // akka-http
+  "com.typesafe.akka" %% "akka-http" % "10.1.5"
 )
 
 dependencyOverrides ++= Seq(

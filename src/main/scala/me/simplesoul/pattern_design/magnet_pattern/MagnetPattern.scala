@@ -1,5 +1,4 @@
 package me.simplesoul.pattern_design.magnet_pattern
-<<<<<<< HEAD
 import me.simplesoul.pattern_design.magnet_pattern.MagnetImpl.Magnet
 
 import scala.reflect.runtime.universe._
@@ -94,7 +93,7 @@ object MagnetImpl {
     }
   }
 
-  implicit def stringList2Magnet[Int](numbs: List[Int]): Magnet = {
+  implicit def intList2Magnet[Int](numbs: List[Int]): Magnet = {
     new Magnet {
       override type Result = List[Int]
 
@@ -107,16 +106,3 @@ object MagnetImpl {
     def double: Result
   }
 }
-
-
-=======
-
-/**
-  * @author: SimpleSoul
-  * @date: Create at 19-6-9 14:39
-  * @description: 磁铁模式实现的输入校验
-  */
-object MagnetPattern {
-
-}
->>>>>>> b125f0042d7ad0cf7279bd5e448d8b7d888be757
