@@ -5,7 +5,8 @@ FP &amp; Scala
 
 ### Level 1
 ### level 2
->　动态调用
+>  动态调用 Dynamic @ docs/about-scala/level 1/动态调用.md
+>  类型擦除 Type Erasure @ docs/about-scala/level 2/泛型擦除.md
 ### level 3
 
 ## about functional programming
@@ -16,8 +17,5 @@ FP &amp; Scala
 
 ## other topics
 
-> **circe related**
-- encode(序列化)  
-1.  序列化对象
-2.  序列化Any对象
-3.  序列化泛型对象
+> **circe related**  @ docs/other-topics/circe/circe.md
+

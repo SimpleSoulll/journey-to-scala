@@ -43,3 +43,5 @@ mappings in Universal := {
   filtered :+ (fatJar -> ("lib/" + fatJar.getName))
 }
 
+addCompilerPlugin("org.scalamacros" %% "paradise" % "2.1.0" cross CrossVersion.full)
+
