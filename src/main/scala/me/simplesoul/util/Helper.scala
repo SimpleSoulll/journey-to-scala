@@ -1,6 +1,5 @@
 package me.simplesoul.util
 
-import scala.annotation.StaticAnnotation
 import scala.util.{Failure, Success, Try}
 
 /**
@@ -9,10 +8,6 @@ import scala.util.{Failure, Success, Try}
   * @description: ${description}
   */
 object Helper {
-
-  case class Trap(description: String) extends StaticAnnotation
-
-  case class Warn() extends StaticAnnotation
 
   /**
    * @author: Simple Soul
