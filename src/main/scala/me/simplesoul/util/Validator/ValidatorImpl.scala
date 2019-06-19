@@ -15,43 +15,61 @@ import scala.collection.mutable.ListBuffer
   */
 object ValidatorImpl extends App {
 
-  val person = new Person("abc", 27, Experience("Scala", 3))
+//  val person = new Person("abc", 27, Experience("Scala", 3))
+//
+//  Validator.validate(person).out
 
-  Validator.validate(person).out
+  val between = Between(1,3)
+
+  val empty = NonEmpty()
+
+  getAnotherInstance(empty).asInstanceOf[NonEmpty].validate("xx", "").out
+
+  def reflectValidator[T: TypeTag](obj: T)(implicit tag: ClassTag[T]): MethodMirror = {
+    val validatorSymbol = typeOf[T].member(TermName("validate")).asMethod
+    mirror.reflect(obj).reflectMethod(validatorSymbol)
+  }
+
+  def getAnotherInstance[T: TypeTag : ClassTag](obj: T) = {
+    val tpe = typeOf[T]
+    val lowerTerm = tpe.member(TermName("lower")).asTerm
+    val upperTerm = tpe.member(TermName("upper")).asTerm
+    val orderTerm = tpe.member(TermName("order")).asTerm
+    val lower = mirror.reflect(obj).reflectField(lowerTerm).get
+    val upper = mirror.reflect(obj).reflectField(upperTerm).get
+    val order = mirror.reflect(obj).reflectField(orderTerm).get
+    val constructorSymbol = tpe.member(termNames.CONSTRUCTOR).alternatives.head.asMethod
+    mirror.reflectClass(tpe.typeSymbol.asClass).reflectConstructor(constructorSymbol).apply(lower, upper, order)
+  }
 }
 
 object Validator {
 
-  def validate[T: TypeTag](obj: T)(implicit tag: ClassTag[T]) = {
+  def validate[T: TypeTag](obj: T)(implicit tag: ClassTag[T]): Option[String] = {
     val results = ListBuffer[Option[String]]()
     universe.typeOf[T].decl(termNames.CONSTRUCTOR).asMethod.paramLists.head.map(_.asTerm).collectFirst {
-      case field if validateField(obj, field, results).nonEmpty => results.last.get
+      case field if validateField(obj, field).nonEmpty => validateField(obj, field)
     }.getOrElse(None)
   }
 
-  def validateField[T: TypeTag](obj: T, field: TermSymbol, results: ListBuffer[Option[String]])(implicit tag: ClassTag[T]): Option[String] = {
+  def validateField[T: TypeTag](obj: T, field: TermSymbol)(implicit tag: ClassTag[T]): Option[String] = {
     field.annotations.filter(_.tree.tpe <:< typeOf[ValidateAnnotation]).collectFirst { case annotation =>
       val validatorSymbol = annotation.tree.tpe.member(TermName("validate")).asMethod
       val tpe = annotation.tree.tpe
       val constructor = tpe.decl(termNames.CONSTRUCTOR).asMethod
       val args = annotation.tree.children.tail.map(_.productElement(0).asInstanceOf[Constant].value.asInstanceOf[T])
-      val validator = mirror.reflect(mirror.reflectClass(tpe.typeSymbol.asClass).
-        reflectConstructor(constructor).apply(args: _*)).instance
+//      val otherArgs = /* generate here */
+      val validator = mirror.reflect(mirror.reflectClass(tpe.typeSymbol.asClass).reflectConstructor(constructor)
+//        .apply((args ::: otherArgs.getOrElse(Nil)): _*)).instance // pass here
       val validatorMirror = mirror.reflect(validator).reflectMethod(validatorSymbol)
       val value = getFieldValue(obj, field)
-      val result = validateField(field.name.decoded, validatorMirror, value)
-      results.append(result)
-      result
+      validatorMirror.apply(field.name.decoded, value).asInstanceOf[Option[String]]
     }.getOrElse(None)
   }
 
   def getFieldValue[T: TypeTag](obj: T, field: TermSymbol)(implicit tag: ClassTag[T]): Any = {
     val s = typeOf[T].declaration(TermName(field.name.decoded))
     mirror.reflect(obj).reflectField(s.asTerm).get
-  }
-
-  def validateField[T: TypeTag](fieldName: String, validatorMirror: MethodMirror, value: T): Option[String] = {
-    validatorMirror.apply(fieldName, value).asInstanceOf[Option[String]]
   }
 }
 
@@ -62,14 +80,12 @@ object Validator {
   * @date: 19-06-09 15:00
   * @description: 用于校验输入参数上下界的注解
   * @params: 下界和上界
-  * @notice: 被校验的参数必须实现了Ordered
+  * @notice: 需要提供Ordering
   */
-case class Between[T](lower: T, upper: T) extends ValidateAnnotation {
+case class Between[T](lower: T, upper: T)(implicit order: Ordering[T]) extends ValidateAnnotation {
 
-  def validate[T: Ordering](name: String, value: T): Option[String] = {
-    import scala.math.Ordering.Implicits._
-    "validate Between".out
-    if(value < lower.asInstanceOf[T] || value > upper.asInstanceOf[T]) Some(s"$name is not between $lower and $upper") else None
+  def validate(name: String, value: T): Option[String] = {
+    if(order.lteq(value, lower) || order.gteq(value, upper)) Some(s"$name is not between $lower and $upper") else None
   }
 }
 
@@ -92,25 +108,12 @@ case class NonEmpty() extends ValidateAnnotation {
   }
 }
 
-//
-//object NonEmpty extends Magnet {
-//
-//  override def validate[T: TypeTag](name: String, obj: T): Option[String] = {
-//    typeOf[T] match {
-//      case tpe if tpe =:= typeOf[String] => if(obj.asInstanceOf[String].isEmpty) Some(s"$name is Empty") else None
-//      case tpe if tpe =:= typeOf[Iterator[_]] => if(obj.asInstanceOf[Iterator[_]].isEmpty) Some(s"$name is Empty") else None
-//      case tpe if tpe =:= typeOf[Option[_]] => if(obj.asInstanceOf[Option[_]].isEmpty) Some(s"$name is Empty") else None
-//      case tpe => Some(s"empty check for ${tpe.typeSymbol.name.decodedName.toString} is not support")
-//    }
-//  }
-//}
-
 /**
   * @author: Simple Soul
   * @date: 19-06-09 15:01
   * @description: Validate注解的实例，说明的该实例有需要校验的字段, 检验时会继续向下校验
   */
-case class Validator() extends ValidateAnnotation {
+case class Validate() extends ValidateAnnotation {
   def validate(name: String, obj: Any): Option[String] = {
     None
   }
@@ -118,7 +121,7 @@ case class Validator() extends ValidateAnnotation {
 
 trait ValidateAnnotation extends StaticAnnotation
 
-case class Person(@NonEmpty() val name: String, @Between(4, 5) age: Int, experience: Experience)
+case class Person(@NonEmpty() val name: String, @Between(4, 5) age: Int, @Validate() xperience: Experience)
 
 case class Experience(language: String, @Between(3, 5) time: Int)
 
