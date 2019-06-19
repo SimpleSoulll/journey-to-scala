@@ -3,7 +3,7 @@ package me.simplesoul.scalaL2.implicit_conversion
 /**
   * @author: SimpleSoul
   * @date: Create at 19-6-14 18:25
-  * @description: 隐式函数示例
+  * @description: docs/about-scala/level 1/隐式转换.md
   */
 object ImplicitFunction extends App {
 
