@@ -3,7 +3,7 @@ name := "journey-to-scala"
 
 version := "1.0"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq (
   // test toolkits for scala
@@ -15,7 +15,9 @@ libraryDependencies ++= Seq (
   "io.circe" %% "circe-optics" % "0.10.0",
   "de.heikoseeberger" %% "akka-http-circe" % "1.20.1", // circe extension
   // akka-http
-  "com.typesafe.akka" %% "akka-http" % "10.1.5"
+  "com.typesafe.akka" %% "akka-http" % "10.1.5",
+  // for dsl
+  "com.lihaoyi" %% "fastparse" % "2.1.0"
 )
 
 dependencyOverrides ++= Seq(

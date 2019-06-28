@@ -18,9 +18,8 @@ object ImplicitClass extends App {
   assert(cxk.rap == "rapping")
   //由于隐式类对Cxk的增强,cxk这个实例有了playBall这个方法
   assert(cxk.playBall == "playing basketball")
-  assert(cxk.sing(cxk.newSong) == song)
   //由于隐式类对Cxk的增强,cxk这个实例有了newSong这个字段
-  assert(cxk.sendLawyersLetter == "sending letter")
+  assert(cxk.sing(cxk.newSong) == song)
 
   /**
    * @author: Simple Soul
@@ -31,17 +30,6 @@ object ImplicitClass extends App {
   implicit class AmbassadorCxk(cxk: Cxk) {
     def playBall: String = "playing basketball"
     val newSong = song
-  }
-
-  /**
-   * @author: Simple Soul
-   * @date: 19-06-25 20:19
-   * @description: 这是一个更好的实现,AdvancedAmbassadorCxk继承AnyVal,这样sendLawyersLetter会被编译成一个静态方法,
-   * 那么意味者每次调用sendLawyersLetter不会有一个新的对象被创建出来.
-   * @params: 必须接受Cxk的对象,且只能有这么一个参数
-  */
-  implicit class AdvancedAmbassadorCxk(val cxk: Cxk) extends AnyVal {
-    def sendLawyersLetter: String = "sending letter"
   }
 }
 

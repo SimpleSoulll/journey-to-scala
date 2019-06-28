@@ -7,11 +7,25 @@ package me.simplesoul.scalaL2.implicit_conversion
   */
 object ImplicitEvidence extends App {
 
+  implicit object NonEmptyCard extends Checkable[CreditCard] {
+
+    override def isEmpty(obj: CreditCard): Boolean = obj.money <= 0
+  }
+
+  def validate[T](obj: T)(implicit ev: Checkable[T]): Option[String] = {
+    if(ev.isEmpty(obj)) Some(s"$obj is empty") else None
+  }
+
+  def validate0[T: Checkable](obj: T): Option[String] = {
+    val checker = implicitly[Checkable[T]]
+    if(checker.isEmpty(obj)) Some(s"$obj is empty") else None
+  }
 }
 
-trait Empty {
+trait Checkable[T] {
 
-  def checkEmpty[T](obj: T): Boolean
+  def isEmpty(obj: T): Boolean
 }
 
-case class Pocket(money: Double)
+case class CreditCard(money: Double)
+

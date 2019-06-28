@@ -27,7 +27,9 @@ object BaseEncoder extends App {
   val monkeyWithHaskell = CodingMonkeyWithSkilledLanguage(new Haskell("Hashkell", Whatever("hello world", person)))
 
   val file = new File("xxx")
-  implicit val encodeFile: Encoder[File] = file => Map("name" -> file.getName).asJson
+  implicit val encodeFile: Encoder[File] = new Encoder[File] {
+    override def apply(file: File): Json = Map("name" -> file.getName).asJson
+  }
 
   encode(monkey).map(json => assert(json.noSpaces == """{"languageUse":"scala","person":{"name":"simplesoul","age":18}}""")).recover {
     case ex: Exception => ex.printStackTrace
